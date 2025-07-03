@@ -81,12 +81,13 @@
 // }
 
 // export default App;
-import { Route, Routes } from "react-router-dom";
-import CustomRoute from "./Components/Home";
+import { Navigate, Route, Routes } from "react-router-dom";
+import CustomRoute from "./Components/Index";
 
 function App() {
   return (
     <Routes>
+      <Route path="/" element={<Navigate to="/admin/home" replace />} />
       <Route path="/admin/*" element={<CustomRoute />} />
     </Routes>
   );
