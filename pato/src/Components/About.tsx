@@ -1,5 +1,5 @@
 import Card from "./Card";
-import Footer from "./Footer";
+
 function About() {
   return (
     <div className="relative h-screen w-full bg-gray-100">
@@ -43,7 +43,6 @@ function About() {
           text=" Our mission is to provide our guests with an authentic taste of Italy through our carefully crafted menu, warm ambiance, and exceptional service. We are committed to using the finest ingredients, traditional recipes, and innovative cooking techniques to create dishes that delight the senses and nourish the soul. "
         />
       </div>
-      <Footer />
     </div>
   );
 }

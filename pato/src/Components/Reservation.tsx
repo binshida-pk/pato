@@ -1,9 +1,8 @@
 import { useState } from "react";
 import Button from "./Button";
-import Footer from "./Footer";
 
 function Reservation() {
-  const [Date, setDate] = useState("");
+  // const [Date, setDate] = useState("");
   const [Time, setTime] = useState("");
   const [People, setPeople] = useState("");
   const [name, setName] = useState("");
@@ -20,9 +19,9 @@ function Reservation() {
   };
 
   return (
-    <div className=" relative h-screen w-full bg-gray-100 sm:max-h-screen">
+    <div className=" relative  h-screen w-full bg-gray-100 sm:max-h-screen">
       <img
-        className="w-full h-full "
+        className=" max-w-screen h-full "
         src="https://pato-place-seven.vercel.app/static/image/pexels-mikhail-nilov-7820325.jpg"
       />
       <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center px-4 text-white text-center">
@@ -36,7 +35,7 @@ function Reservation() {
       </div>
 
       <div className=" grid  grid-cols-3 justify-center   lg:ml-20 lg:mr-20 gap-5">
-        <label>
+        {/* <label>
           Date
           <input
             className="grid sm:grid-cols-1 justify-center text-black p-2 rounded  sm:w-full bg-gray-200 border border-gray-400"
@@ -45,7 +44,8 @@ function Reservation() {
             onChange={(e) => setDate(e.target.value)}
             placeholder="Enter Your Date"
           />
-        </label>
+        </label> */}
+
         <label>
           Time
           <input
@@ -104,7 +104,6 @@ function Reservation() {
           onClick={handleSubmit}
         />
       </div>
-      <Footer />
     </div>
   );
 }

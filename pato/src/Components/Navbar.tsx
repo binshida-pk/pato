@@ -44,6 +44,11 @@ function Navbar() {
                 label="CONTACT US"
                 onClick={() => navigate("/admin/contactus")}
               />
+              <Button
+                classes="w-30 mb-4"
+                label="SIGNIN"
+                onClick={() => navigate("/admin/signin")}
+              />
             </div>
           </div>
         </nav>

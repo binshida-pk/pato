@@ -3,7 +3,7 @@ import Card from "./Card";
 function Menu() {
   return (
     <>
-      <div className="grid grid-cols-2 justify-between w-full ">
+      <div className="grid grid-cols-2 overflow-auto justify-between w-full ">
         <h2 className="pl-20">PRODUCT LIST </h2>
 
         <svg

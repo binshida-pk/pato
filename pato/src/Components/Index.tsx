@@ -6,6 +6,7 @@ import Contactus from "./Contactus";
 import Home from "./Home";
 import Mainbody from "./Mainbody";
 import About from "./About";
+import Signin from "./Signin";
 function CustomRoute() {
   return (
     <Routes>
@@ -16,6 +17,7 @@ function CustomRoute() {
         <Route path="gallery" element={<Gallery />} />
         <Route path="contactus" element={<Contactus />} />
         <Route path="about" element={<About />} />
+        <Route path="signin" element={<Signin />} />
       </Route>
     </Routes>
   );

@@ -1,5 +1,5 @@
 import Button from "./Button";
-import Footer from "./Footer";
+
 import { useState } from "react";
 
 function Contactus() {
@@ -108,7 +108,6 @@ function Contactus() {
             onClick={handleSubmit}
           />
         </div>
-        <Footer />
       </div>
     </>
   );

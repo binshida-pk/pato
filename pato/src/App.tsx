@@ -83,6 +83,7 @@
 // export default App;
 import { Navigate, Route, Routes } from "react-router-dom";
 import CustomRoute from "./Components/Index";
+import "@mantine/core/styles.css";
 
 function App() {
   return (

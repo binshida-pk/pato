@@ -1,9 +1,7 @@
-import Footer from "./Footer";
-
 function Gallery() {
   return (
     <>
-      <div className="relative max-h-screen w-full bg-gray-100 px-0 ">
+      <div className="relative max-h-screen  w-full bg-gray-100 px-0 ">
         <img
           className="w-full max-h-screen"
           src="https://pato-place-seven.vercel.app/static/image/pexels-robin-schreiner-1188739-2261165.jpg"
@@ -52,8 +50,6 @@ function Gallery() {
             src="https://pato-place-seven.vercel.app/static/image/photo-gallery-21.jpg.webp"
           />
         </div>
-
-        <Footer />
       </div>
     </>
   );

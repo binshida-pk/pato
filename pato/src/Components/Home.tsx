@@ -1,8 +1,10 @@
 import Button from "./Button";
 import Text from "./Text";
+import CardItem from "./CardItem";
+
 function Home() {
   return (
-    <div className="w-full h-screen py-0 relative">
+    <div className="w-full  h-screen relative  px-0 ">
       <img
         className="w-full h-screen object-cover brightness-50"
         src="https://i.postimg.cc/mrM5p9dp/slide1-01.webp"
@@ -22,6 +24,7 @@ function Home() {
         src="https://pato-place-seven.vercel.app/static/image/bg-intro-01.jpg"
       />
       <Text />
+      <CardItem />
     </div>
   );
 }
