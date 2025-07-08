@@ -12,7 +12,8 @@ function Signin() {
   });
 
   return (
-    <div className="min-h-screen  items-center justify-center bg-amber-200 grid grid-cols-3 w-full">
+    <div className="min-h-screen grid grid-cols-3 items-center justify-center bg-amber-200  w-full">
+      <div></div>
       <div className="grid grid-cols-2 gap-4 p-8  w-full rounded bg-white shadow-md  max-w-md ">
         <TextInput
           label="Name"
@@ -42,7 +43,7 @@ function Signin() {
               })
             }
           >
-            Set random values
+            submit
           </Button>
         </Group>
       </div>
